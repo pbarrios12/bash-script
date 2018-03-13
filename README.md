@@ -20,7 +20,7 @@ exit 0
 
 	then
 
-	echo "The memory usage has reached $usedmem% on $HOSTNAME." | mail -s "Warning Memory Usage Alert" email@mine.com
+	echo "The memory usage has reached $usedmem% on $pbarrios." | mail -s "Warning Memory Usage Alert" pbarrios@gmail.com
 
 	exit 1
 
@@ -33,7 +33,7 @@ exit 0
 	
 		file=/tmp/20180401_10:30_memory_check_crtical.txt
 
-		echo "The memory usage has reached $usedmem% on $HOSTNAME." | mail -s "Critical Memory Usage Alert" email@mine.com
+		echo "The memory usage has reached $usedmem% on $pbarrios." | mail -s "Critical Memory Usage Alert" pbarrios@gmail.com
 
 		exit 2
 
